@@ -1,17 +1,3 @@
 li{
 	margin-bottom: 16px;
 }
-ol li span{
-	background-color: green;
-	color:white;
-}
-ul,h1{
-	background-color:orange;
-	color:white;
-}
-#special+li>span{
-	border:3px solid red;
-}
-#special~li{
-	margin-left:16px ;
-}
