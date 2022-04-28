@@ -4,7 +4,7 @@ img[alt="Pollution"]{
 img[src$=".jpg"]{
 	margin-left:50px;
 }
-[data-description~="even"]{
+[data-description*="even"]{
 	background-color:grey;
 }
 a[href^="https://"]{
