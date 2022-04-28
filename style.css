@@ -1,7 +1,7 @@
 li{
 	margin-bottom: 16px;
 }
-ol>li>span{
+ol li span{
 	background-color: green;
 	color:white;
 }
