@@ -1,0 +1,17 @@
+li{
+	margin-bottom: 16px;
+}
+ol>li>span{
+	background-color: green;
+	color:white;
+}
+:not(ol){
+	background-color:orange;
+	color:white;
+}
+#special+li>span{
+	border:3px solid red;
+}
+#special~li>span{
+	margin-left:16px ;
+}
