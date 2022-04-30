@@ -28,13 +28,16 @@ div p{
 input[type="text"]{
 	background:grey;
 }
-body div:nth-child(3)> p{
-  background:yellow;
-}
-body div:nth-child(3)>p:nth-child(2){
+
+ 
+ div:nth-of-type(3)>p{
+	 background:yellow;
+ }
+
+ div:nth-of-type(3)>p:last-child {
 	border:5px white;
 }
-body div:nth-child(3)>em{
+div:nth-of-type(3) em{
 	font-size: 20px;
 	color:white;
 }
