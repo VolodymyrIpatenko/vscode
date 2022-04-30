@@ -15,3 +15,6 @@ a::after{
 	content: ">";
 	color:green;
 }
+p:nth-of-type(1)::first-line{
+	font-size: 24px;
+}
