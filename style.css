@@ -1,43 +1,16 @@
-body{
-	background:#bdc3c7;
+p:nth-of-type(1)::first-letter{
+	font-size: 36px;
+	margin-left: 16px;
 }
-h1{
-	color:#9b59b6;
-}
-h2{
-	color:orange;
-}
-li{
-	color:blue;
-}
-p{
-	background:yellow;
-}
-input{
-	border:3px solid red;
-}
-.hello{
-	background:white;
-}
-#special{
-	border:2px solid blue;
-}
-div p{
-  font-size: 25px;
-}
-input[type="text"]{
-	background:grey;
-}
-
- 
- div:nth-of-type(3)>p{
-	 background:yellow;
- }
-
- div:nth-of-type(3)>p:nth-of-type(2) {
-	border:5px solid white;
-}
-div:nth-of-type(3) em{
-	font-size: 20px;
+p::selection{
+	background-color: red;
 	color:white;
+}
+a::before{
+	content: ">";
+	color:green;
+}
+a::after{
+	content: ">";
+	color:green;
 }
