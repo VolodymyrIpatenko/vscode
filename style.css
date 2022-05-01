@@ -4,7 +4,7 @@
        /* align-items: center; */
    }
    .article{
-       margin: 16px;
+       margin: 8px;
        padding:16px;
        background-color:bisque;
        flex-basis: 300px;
