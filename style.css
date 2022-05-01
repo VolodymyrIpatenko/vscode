@@ -3,7 +3,8 @@
      height: 200px;
      width: 200px;
      float: left;
-     clear: right;
+     display: inline-block;
+     
  }
  .block_black{
      background-color:black;
