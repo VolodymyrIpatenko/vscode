@@ -42,37 +42,37 @@
      left: 50%;
      transform: translate(-50%, -50%);
  }
- .ear_left{
+ .ear{
      position: absolute;
-     top: -60px;
-     left: -40px;
-     width: 40px;
+      width: 40px;
      height: 60px;
      background-color:brown;
+     top:-60px;
+ }
+ .ear_left{
+     
+     left: -40px;
+     
  }
  .ear_right{
-     top: -60px;;
+     
      right: -40px;
-     position: absolute;
-     width: 40px;
-     height: 60px;
-     background-color:brown;
+     
  }
  .eye_left{
-position: absolute;
-top:80px;
+
 left:40px;
-background-color:grey;
-width: 30px;
-height: 30px;
-border-radius: 50%;
+
  }
 .eye_right{
-    background-color:grey;
-    width: 30px;
-    height: 30px;
-    border-radius:50% ;
+   
+    right:40px;
+}
+.eye{
     position: absolute;
     top:80px;
-    right:40px;
+     background-color:grey;
+    width: 30px;
+    height: 30px; 
+    border-radius: 50%;
 }
