@@ -12,5 +12,5 @@
    .articles-list{
        display: flex;
        flex-wrap: wrap;
-       flex-basis:min-width(300px);
+       flex-basis:300px;
    }
