@@ -39,6 +39,7 @@
 }
 
 .container {
+  
   height: 2000px;
 }
 .static-parent{
@@ -50,9 +51,9 @@
     left:50px;
 }
 .absolute-parent{
-    position: absolute;
+    position: fixed;
     bottom:20px;
-    left: 50px;
+    right: 50px;
 }
 .fixed-parent{
     position: fixed;
