@@ -2,7 +2,7 @@
  div{
      width: 200px;
      height: 200px;
-     float: left;
+     display: inline-block;
  }
  .block_red{
      background-color:red;
