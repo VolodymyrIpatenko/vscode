@@ -1,2 +1,22 @@
   
- 
+ div{
+     width: 200px;
+     height: 200px;
+     float: left;
+     clear: right;
+ }
+ .block_black{
+     background-color:black;
+ }
+ .block_blue{
+     background-color:blue;
+ }
+ .block_green{
+     background-color:green;
+ }
+ .block_yellow{
+     background-color:yellow;
+ }
+ .block_red{
+     background-color:red;
+ }
