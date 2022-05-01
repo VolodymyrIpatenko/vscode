@@ -1,21 +1,21 @@
   
- .block_black{
-     background-color:black;
+ .header{
+     height: 50px;
+     background-color: yellow;
  }
- .block_blue{
-     background-color:blue;
+ .footer{
+   height: 50px;
+   background-color:green;
  }
- .block_red{
-     background-color:red;
+ .content{
+height: 500px;
+width: 80%;
+float: left;
+background-color:pink;
  }
- .block_yellow{
-     background-color:yellow;
- }
- .block_green{
-     background-color:green;
- }
- div{
-     height: 200px;
-     width: 250px;
+ .sidebar{
+     height: 500px;
+     width: 20%;
      float: left;
+     background-color:grey;
  }
