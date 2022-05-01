@@ -1,23 +1,29 @@
 
  .header{
+     
+    
      height: 40px;
      background-color:darkturquoise;
  }
  .navigation{
      
      color:white;
-     height: 40px;
+     
      
 
  }
  .nav-list{
-   line-height: 10px;  
+    
+     
+     margin: 0;
+   line-height: 40px;  
  }
  .nav-list .nav-item{
      
      list-style: none;
      float: left;
-     padding: 16px;
+     margin-left:16px ;
+     
      
      
  }
