@@ -1,6 +1,4 @@
-  header{
-      margin: 0;
-  }
+
  .header{
      height: 40px;
      background-color:darkturquoise;
@@ -19,7 +17,7 @@
      
      list-style: none;
      float: left;
-     margin: 16px;
+     padding: 16px;
      
      
  }
