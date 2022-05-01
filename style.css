@@ -1,23 +1,74 @@
-  
- div{
-     height: 200px;
-     width: 200px;
+  ul{
+      margin: 0;
+  }
+ .header{
+     height: 40px;
+     background-color:darkturquoise;
+ }
+ .navigation{
+     
+     color:white;
+     height: 40px;
+     
+
+ }
+ .nav-list{
+   line-height: 10px;  
+ }
+ .nav-list .nav-item{
+     
+     list-style: none;
      float: left;
-     display: inline-block;
+     margin: 16px;
+     
      
  }
- .block_black{
-     background-color:black;
+ 
+ .content{
+     background-color:beige;
+     height: 5000px;
  }
- .block_blue{
-     background-color:blue;
+ .head{
+     position: relative;
+     background-color:aquamarine;
+     height: 200px;
+     width: 200px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
  }
- .block_green{
-     background-color:green;
+ .ear_left{
+     position: absolute;
+     top: -60px;
+     left: -40px;
+     width: 40px;
+     height: 60px;
+     background-color:brown;
  }
- .block_red{
-     background-color:red;
+ .ear_right{
+     top: -60px;;
+     right: -40px;
+     position: absolute;
+     width: 40px;
+     height: 60px;
+     background-color:brown;
  }
- .block_yellow{
-     background-color:yellow;
+ .eye_left{
+position: absolute;
+top:80px;
+left:40px;
+background-color:grey;
+width: 30px;
+height: 30px;
+border-radius: 50%;
  }
+.eye_right{
+    background-color:grey;
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+    position: absolute;
+    top:80px;
+    right:40px;
+}
