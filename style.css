@@ -19,6 +19,9 @@
     .menu-item{
       padding: 16px;
     }
+    .menu-item:hover{
+        background-color:ghostwhite;
+    }
     .dropdown:hover .menu-list{
         display: block;
         min-width: 120px;
