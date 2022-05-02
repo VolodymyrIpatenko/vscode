@@ -5,8 +5,8 @@
     section{
         margin: 32px;
     }
-    body{
-        font-family: Roboto,sans-serif;
+    html{
+        font-family: sans-serif;
         font-size: 18px;
 
     }
