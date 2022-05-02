@@ -6,18 +6,18 @@
         padding:16px;
         background-color:darkgreen;
         opacity:0.8;
-        
+         font-size: 16px;
+        color:white;
+        cursor:pointer;
         display: inline-block;
     }
     .menu-button:hover{
         opacity:1;
-        font-size: 16px;
-        color:white;
-        cursor:pointer;
+       
     }
     
     .menu-item{
-      margin: 16px;
+      margin-bottom: 16px;
     }
     .dropdown:hover .menu-list{
         display: block;
@@ -28,13 +28,13 @@
         margin: 16px;
     }
     .menu-list{
-        
+         
          position: absolute;
         list-style: none;
         display: none;
         padding:0;
         margin: 0;
-        
+        padding:16px;
         z-index: 1;
       color: black;
       background-color:lightcyan;
