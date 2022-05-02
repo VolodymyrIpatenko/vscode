@@ -2,11 +2,20 @@
         box-sizing: border-box;
     }
     
-    img{
-        margin: 8px;
+    ul{
+        list-style: none;
     }
-    .gallery{
-        overflow-x: scroll;
-        display:flex;
-        cursor: all-scroll;
+    li{
+        font-size: 1.5em;
+    }
+    .third{
+        display: inline-block;
+        border-bottom: 1px solid green;
+    }
+    .second{
+        text-decoration: line-through;
+    }
+    .first{
+        border-top: 1px solid red;
+        display: inline-block;
     }
