@@ -54,7 +54,7 @@
     .news_list{
         display: flex;
         flex-direction:column;
-        
+        padding:0;
         line-height: 40px;
         margin: 0;
         margin-left:16px;
