@@ -27,7 +27,7 @@
     .dropdown{
         position: relative;
         
-        /* padding:16px; */
+        
         background-color:darkgreen;
         opacity:0.8;
          
@@ -42,7 +42,7 @@
     .menu-list{
          
          position: absolute;
-         top:34px;
+         top:50px;
         list-style: none;
         display: none;
         padding:0;
