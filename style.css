@@ -9,13 +9,11 @@
         font-size: 1.5em;
     }
     .third{
-        display: inline-block;
-        border-bottom: 1px solid green;
+        text-decoration: underline green;
     }
     .second{
         text-decoration: line-through;
     }
     .first{
-        border-top: 1px solid red;
-        display: inline-block;
+        text-decoration: overline red;
     }
