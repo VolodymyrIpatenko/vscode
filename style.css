@@ -50,10 +50,13 @@
     .news_list{
         display: flex;
         flex-direction:column;
-        
+        height: 40px;
+        margin: 0;
+        margin-left:16px;
         list-style: none;
     }
     .news>h2{
+        margin:16px;
         display: flex;
         justify-content: center;
     }
