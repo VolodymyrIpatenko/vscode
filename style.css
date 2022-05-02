@@ -1,24 +1,38 @@
     *{
         box-sizing: border-box;
     }
-   header{
-       display: flex;
-       justify-content: center;
-    
-   }
-   .article{
-       margin: 8px;
-       padding:16px;
-       background-color:bisque;
-         flex:1 0 300px;
-         
-       
-       
-        }
-   .articles-list{
-       display: flex;
-       
-       flex-wrap: wrap;
-       
-   }
-   
+    .header{
+        height: 40px;
+        background-color:yellow;
+    }
+    .footer{
+        height: 40px;
+        background-color:green;
+    }
+    .navigation{
+        margin: 0;
+        display: flex;
+        list-style:none;
+    }
+    .navigation_item{
+        margin-right: 10px;
+    }
+    .page{
+        display: flex;
+        flex-direction:column;
+        height: 100vh;
+    }
+    .content{
+        display: flex;
+        flex-grow: 1;
+    }
+    .dashbord{
+        flex-grow:1 ;
+        background-color:pink;
+        justify-content: center;
+        align-items: center;
+    }
+    .news{
+        width: 200px;
+        background-color:grey;
+    }
