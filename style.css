@@ -4,19 +4,21 @@
    header{
        display: flex;
        justify-content: center;
-       /* align-items: center; */
+    
    }
    .article{
        margin: 8px;
        padding:16px;
        background-color:bisque;
-       flex-basis:calc(100% /5 - 16px);
-       flex-grow: 1;
+         flex:1 0 300px;
+         
        
-       }
+       
+        }
    .articles-list{
        display: flex;
        
        flex-wrap: wrap;
        
    }
+   
