@@ -2,4 +2,22 @@
         box-sizing: border-box;
     }
     
-    
+    html{
+        font-family:Verdana;
+    }
+    h1{
+        overflow: hidden;
+    }
+    header{
+       
+        font-size: 74px;
+    }
+    div{
+        height: 200px;
+        background-color:coral;
+        color: white;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        line-height: 200;
+    }
