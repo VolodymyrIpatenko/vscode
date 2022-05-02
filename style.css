@@ -7,7 +7,7 @@
         background-color:darkgreen;
         opacity:0.8;
          
-        /* color:white; */
+        color:white;
         cursor:pointer;
         display: inline-block;
     }
@@ -38,11 +38,11 @@
         position: relative;
         
         
-        background-color:darkgreen;
+        /* background-color:darkgreen; */
         opacity:0.8;
          
-        color:white;
-        cursor:pointer;
+        /* color:white; */
+        /* cursor:pointer; */
         display: inline-block;
         margin: 16px;
     }
