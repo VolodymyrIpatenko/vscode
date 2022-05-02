@@ -17,12 +17,14 @@
         background-color:green;
     }
     .navigation{
+    
+        padding:0;
         margin: 0;
         display: flex;
       list-style-type:none;
     }
     .navigation_item{
-        margin-right: 10px;
+        margin-left: 16px;
     }
     .page{
         display: flex;
@@ -41,7 +43,7 @@
         align-items: center;
     }
     .news{
-    
+        margin: 0;
         width: 200px;
         background-color:grey;
     }
@@ -52,9 +54,10 @@
     .news_list{
         display: flex;
         flex-direction:column;
-        height: 40px;
+        
+        line-height: 40px;
         margin: 0;
-        /* margin-left:16px; */
+        margin-left:16px;
         list-style: none;
     }
     .news>h2{
