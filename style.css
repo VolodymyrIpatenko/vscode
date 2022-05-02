@@ -2,24 +2,31 @@
         box-sizing: border-box;
     }
     
-    html{
-        font-family:Verdana;
+    section{
+        margin: 32px;
+    }
+    body{
+        font-size: 18px;
+
     }
     h1{
-         font-size: 74px;
-         text-align: center;
-         text-overflow: ellipsis;
-         width: 50%;
-         margin: auto;
-         white-space: nowrap;
-        overflow: hidden;
+        letter-spacing: 20px;
+        text-transform: uppercase;
+        text-align: center;
     }
-    
-    div{
-        height: 200px;
-        background-color:coral;
-         color: white;
-         text-transform: uppercase;
-       text-align: center;
-        line-height: 200px;
+    p{
+        line-height: 28px;
+    }
+    p::first-letter{
+        font-weight:bold;
+        word-spacing:3px;
+        font-size: 24px;
+        opacity: 0.8;
+        text-decoration: underline;
+    }
+    a{
+        text-decoration: none;
+    }
+    em{
+        color:grey;
     }
