@@ -2,34 +2,14 @@
         box-sizing: border-box;
     }
     
-    section{
-        margin: 32px;
-    }
-    html{
-        font-family: Roboto,sans-serif;
+    .image{
+         
+        height: 200px;
+        width: 200px;
+        margin: 16px;
+        border:1px dotted grey;
         
-        font-size: 18px;
-
     }
-    h1{
-        word-spacing: 20px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    p{
-        
-        line-height: 28px;
-    }
-     .technology{
-        
-        letter-spacing:3px;
-        font-size: 24px;
-        opacity: 0.8;
-        text-decoration: underline;
-    }
-    a{
-        text-decoration: none;
-    }
-    em{
-        color:grey;
+    .gallery{
+        display: flex;
     }

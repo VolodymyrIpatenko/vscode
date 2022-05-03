@@ -2,74 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>The Web technologies</title>
+    <title>One more gallery</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic"
-      rel="stylesheet"
-    />
-
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      section {
-        margin: 32px;
-      }
-      html {
-        font-family: Roboto, sans-serif;
-
-        font-size: 18px;
-      }
-      h1 {
-        word-spacing: 20px;
-        text-transform: uppercase;
-        text-align: center;
-      }
-      p {
-        line-height: 28px;
-      }
-      .technology {
-        letter-spacing: 3px;
-        font-size: 24px;
-        opacity: 0.8;
-        text-decoration: underline;
-      }
-      a {
-        text-decoration: none;
-      }
-      em {
-        color: grey;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body>
-    <section>
-      <h1>Web technologies</h1>
-      <p>
-        <b class="technology">HTML</b> (от англ.
-        <em>HyperText Markup Language</em> — «язык гипертекстовой разметки») —
-        стандартизированный язык разметки документов во Всемирной паутине.
-        Большинство веб-страниц содержат описание разметки на языке HTML (или
-        XHTML). Язык
-        <a target="_blank" href="https://ru.wikipedia.org/wiki/HTML">HTML</a>
-        интерпретируется браузерами; полученный в результате интерпретации
-        форматированный текст отображается на экране монитора компьютера или
-        мобильного устройства.
-      </p>
-      <p>
-        <b class="technology">CSS</b> (/siːɛsɛs/ англ.
-        <em>Cascading Style Sheets</em> — каскадные таблицы стилей) — формальный
-        язык описания внешнего вида документа, написанного с использованием
-        языка разметки.
-      </p>
-    </section>
+    <div class="gallery">
+      <div
+        class="image"
+        style="
+          background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw1/nature1.jpeg);
+          background-position: center;
+          background-size: cover;
+          background-clip: content-box;
+        "
+      ></div>
+      <div
+        class="image"
+        style="
+          background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw1/nature2.jpeg);
+          background-position: center;
+          background-size: cover;
+          background-clip: content-box;
+        "
+      ></div>
+      <div
+        class="image"
+        style="
+          background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw1/nature3.jpeg);
+          background-position: center;
+          background-size: cover;
+          background-clip: content-box;
+        "
+      ></div>
+    </div>
   </body>
 </html>
