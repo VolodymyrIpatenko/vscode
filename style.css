@@ -3,7 +3,7 @@
     }
     
     .image{
-        /* padding:32px; */
+        padding:32px;
         background-position: center;
         background-size: cover;
         background-clip: content-box;
