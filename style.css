@@ -4,9 +4,9 @@
     
      
     div{
-        background-color:blueviolet;
+        background-color:blueviolet!important;
     }
     p::first-letter{
-        color:green;
+        color:green!important;
         font-size: 24px;
     }
