@@ -1,14 +1,6 @@
 * {
   box-sizing: border-box;
 }
-div,
-textarea {
+div {
   margin: 16px;
-}
-button {
-  display: block;
-  margin-left: 16px;
-}
-textarea {
-  resize: none;
 }
