@@ -5,7 +5,7 @@
     .image {
         position: relative;
         display: block;
-        margin:20px auto 0;
+        margin:auto;
         max-width: 100%;
         height:auto;
     }
