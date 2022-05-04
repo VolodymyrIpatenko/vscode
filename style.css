@@ -9,3 +9,6 @@ button {
   display: block;
   margin-left: 16px;
 }
+textarea {
+  resize: none;
+}
