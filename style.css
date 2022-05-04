@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 div,
-textarea,
-button {
+textarea {
   margin: 16px;
 }
 button {
   display: block;
+  margin-left: 16px;
 }
