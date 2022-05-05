@@ -1,38 +1,72 @@
 * {
   box-sizing: border-box;
 }
-caption {
-  margin-bottom: 8px;
-}
 
 table {
-  overflow-x: auto;
-  width: 500px;
+  text-align: center;
   margin: 16px;
-}
-thead {
-  background-color: aqua;
-}
-table,
-th,
-td {
+
   border: 1px solid black;
-  border-collapse: collapse;
-}
-td,
-th {
-  text-align: right;
-  height: 40px;
-  padding: 4px;
 }
 
-tfoot {
-  font-weight: 700;
+td {
+  width: 50px;
+  height: 50px;
+  background-color: white;
 }
-tbody > tr:nth-child(odd) {
-  background-color: #f2f2f2;
+tr:nth-of-type(2) > td:nth-child(odd):not(:first-child) {
+  background-color: black;
+  outline: 1px solid black;
 }
-tbody > tr:hover {
-  background-color: #aaa;
-  color: white;
+tr:nth-of-type(3) > td:nth-child(even):not(:last-child) {
+  background-color: black;
+  outline: 1px solid black;
+}
+tr:nth-of-type(4) > td:nth-child(odd):not(:first-child) {
+  background-color: black;
+  outline: 1px solid black;
+}
+tr:nth-of-type(5) > td:nth-child(even):not(:last-child) {
+  background-color: black;
+  outline: 1px solid black;
+}
+tr:nth-of-type(6) > td:nth-child(odd):not(:first-child) {
+  background-color: black;
+  outline: 1px solid black;
+}
+tr:nth-of-type(7) > td:nth-child(even):not(:last-child) {
+  background-color: black;
+  outline: 1px solid black;
+}
+tr:nth-of-type(8) > td:nth-child(odd):not(:first-child) {
+  background-color: black;
+  outline: 1px solid black;
+}
+tr:nth-of-type(9) > td:nth-child(even):not(:last-child) {
+  background-color: black;
+  outline: 1px solid black;
+}
+tr:nth-of-type(2) > td:nth-child(even):not(:last-child) {
+  outline: 1px solid black;
+}
+tr:nth-of-type(3) > td:nth-child(odd):not(:first-child) {
+  outline: 1px solid black;
+}
+tr:nth-of-type(4) > td:nth-child(even):not(:last-child) {
+  outline: 1px solid black;
+}
+tr:nth-of-type(5) > td:nth-child(odd):not(:first-child) {
+  outline: 1px solid black;
+}
+tr:nth-of-type(6) > td:nth-child(even):not(:last-child) {
+  outline: 1px solid black;
+}
+tr:nth-of-type(7) > td:nth-child(odd):not(:first-child) {
+  outline: 1px solid black;
+}
+tr:nth-of-type(8) > td:nth-child(even):not(:last-child) {
+  outline: 1px solid black;
+}
+tr:nth-of-type(9) > td:nth-child(odd):not(:first-child) {
+  outline: 1px solid black;
 }
