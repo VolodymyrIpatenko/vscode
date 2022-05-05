@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   font-size: 16px;
   font-family: Monospace;
   background-color: bisque;
 }
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 div {
   margin-bottom: 8px;
 }
@@ -32,8 +32,6 @@ input {
 }
 
 .login-form {
-  margin: 0 auto;
-
   width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
