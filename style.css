@@ -20,10 +20,8 @@ td {
 }
 td,
 th {
-  padding: 4px;
-}
-tr {
   line-height: 40px;
+  padding: 4px;
 }
 div {
   overflow-x: auto;
