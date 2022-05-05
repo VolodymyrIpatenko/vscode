@@ -18,35 +18,35 @@ td {
 }
 tr:nth-of-type(2) > td:nth-child(odd):not(:first-child) {
   background-color: black;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 tr:nth-of-type(3) > td:nth-child(even):not(:last-child) {
   background-color: black;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 tr:nth-of-type(4) > td:nth-child(odd):not(:first-child) {
   background-color: black;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 tr:nth-of-type(5) > td:nth-child(even):not(:last-child) {
   background-color: black;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 tr:nth-of-type(6) > td:nth-child(odd):not(:first-child) {
   background-color: black;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 tr:nth-of-type(7) > td:nth-child(even):not(:last-child) {
   background-color: black;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 tr:nth-of-type(8) > td:nth-child(odd):not(:first-child) {
   background-color: black;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 tr:nth-of-type(9) > td:nth-child(even):not(:last-child) {
   background-color: black;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 tr:nth-of-type(2) > td:nth-child(even):not(:last-child) {
   outline: 1px solid black;
