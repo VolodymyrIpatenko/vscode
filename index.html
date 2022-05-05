@@ -13,36 +13,125 @@
   </head>
 
   <body>
-    <main class="page">
-      <form class="login-form">
-        <h1 class="form-title">Login</h1>
-        <div class="form-control">
-          <label class="form-label" for="email">Email</label>
-          <input
-            class="form-input"
-            type="email"
-            id="email"
-            name="email"
-            placeholder="mail@example.com"
+    <form>
+      <div>
+        <label for=""
+          ><input type="text" name="primaryLanguage" value="HTML" disabled
+        /></label>
+      </div>
+      <div>
+        <label for=""><input type="checkbox" name="agree" unchecked /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input type="checkbox" name="like" checked readonly
+        /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input type="color" name="favouriteColor" value="#ff7f50"
+        /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input type="date" name="birthDate" value="2021-01-02"
+        /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input
+            type="datetime-local"
+            name="birthTime"
+            value="2024-10-04T 13:02"
+        /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input type="email" placeholder="example@domain.com" required
+        /></label>
+      </div>
+      <div>
+        <label for=""><input type="file" name="avatar" /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input type="month" name="startLearning" value="2020-01"
+        /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input type="number" name="favouriteNumber" value="17"
+        /></label>
+      </div>
+      <div>
+        <textarea
+          name="story"
+          id=""
+          cols="30"
+          rows="5"
+          placeholder="A long time ago..."
+        ></textarea>
+      </div>
+      <div>
+        <label for=""><input type="password" value="secret" /></label>
+      </div>
+      <div class="languages">
+        <label for=""
+          ><input type="radio" value="html" name="languages" />HTML</label
+        >
+        <label for=""
+          ><input type="radio" value="css" name="languages" />CSS</label
+        >
+        <label for=""
+          ><input
+            type="radio"
+            value="javascript"
+            name="languages"
+          />JavaScript</label
+        >
+      </div>
+      <div>
+        <label for=""
+          ><input type="range" value="30" name="learningProgress"
+        /></label>
+      </div>
+      <div>
+        <select name="framework" id="">
+          <option value="react">React</option>
+          <option value="jquery" selected>jQuery</option>
+          <option value="bootstrap">Bootstrap</option>
+        </select>
+      </div>
+      <div>
+        <label for=""
+          ><input
+            type="search"
+            name="search"
+            placeholder="Type first letters..."
+        /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input type="time" name="lunchEnd" value="14:01"
+        /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input
+            type="url"
+            name="website"
+            placeholder="https://website.com"
             required
-          />
-        </div>
-        <div class="form-control">
-          <label class="form-label" for="userName">Full Name</label>
-          <input class="form-input" type="text" id="userName" name="userName" />
-        </div>
-        <div class="form-control">
-          <label class="form-label" for="password">Password</label>
-          <input
-            class="form-input"
-            type="password"
-            id="password"
-            name="password"
-            required
-          />
-        </div>
-        <button class="submit-button" type="submit">Submit</button>
-      </form>
-    </main>
+        /></label>
+      </div>
+      <div>
+        <label for=""
+          ><input type="week" name="birthWeek" value="2021-W51"
+        /></label>
+      </div>
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
   </body>
 </html>
