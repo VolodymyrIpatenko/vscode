@@ -42,12 +42,16 @@
           ><input
             type="datetime-local"
             name="birthTime"
-            value="2024-10-04T 13:02"
+            value="2024-10-04T13:02"
         /></label>
       </div>
       <div>
         <label for=""
-          ><input type="email" placeholder="example@domain.com" required
+          ><input
+            type="email"
+            name="email"
+            placeholder="example@domain.com"
+            required
         /></label>
       </div>
       <div>
@@ -73,21 +77,21 @@
         ></textarea>
       </div>
       <div>
-        <label for=""><input type="password" value="secret" /></label>
+        <label for=""
+          ><input type="password" name="password" value="secret"
+        /></label>
       </div>
       <div class="languages">
         <label for=""
-          ><input type="radio" value="html" name="languages" />HTML</label
+          ><input type="radio" value="html" name="languages" /> HTML</label
         >
         <label for=""
-          ><input type="radio" value="css" name="languages" />CSS</label
+          ><input type="radio" value="css" name="languages" checked />
+          CSS</label
         >
         <label for=""
-          ><input
-            type="radio"
-            value="javascript"
-            name="languages"
-          />JavaScript</label
+          ><input type="radio" value="javascript" name="languages" />
+          JavaScript</label
         >
       </div>
       <div>
