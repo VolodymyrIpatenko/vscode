@@ -2,12 +2,11 @@
   box-sizing: border-box;
 }
 caption {
-  margin-bottom: 8px;
+  margin: 8px;
 }
 table {
   width: 500px;
   margin: 16px;
-  text-align: right;
 }
 thead {
   background-color: aqua;
@@ -20,6 +19,7 @@ td {
 }
 td,
 th {
+  text-align: right;
   line-height: 40px;
   padding: 4px;
 }
