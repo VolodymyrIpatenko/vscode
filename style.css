@@ -2,16 +2,20 @@
   box-sizing: border-box;
 }
 body {
+  font-size: 16px;
+  font-family: Monospace;
   background-color: bisque;
 }
 div {
   margin: 8px;
 }
 h1 {
+  text-transform: uppercase;
   text-align: center;
 }
 label {
   display: block;
+  margin-bottom: 4px;
 }
 input {
   width: 100%;
@@ -24,14 +28,13 @@ input {
 
 .login-form {
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 150px;
   width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   background-color: aqua;
 }
 .submit-button {
-  border: none;
   width: 100%;
   height: 32px;
   background-color: #ff7f50;
@@ -40,6 +43,6 @@ input {
   color: white;
   border-radius: 4px;
 }
-input:valid {
+ {
   border: 3px solid #ff0000;
 }
