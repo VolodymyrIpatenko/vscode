@@ -1,16 +1,26 @@
 * {
   box-sizing: border-box;
 }
-.row {
-  display: flex;
-  justify-content: space-around;
+
+button {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
 }
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
+button:hover {
+  color: darkcyan;
 }
 img {
-  max-width: 100%;
+  vertical-align: middle;
+}
+img:hover {
+  :green ;
 }
