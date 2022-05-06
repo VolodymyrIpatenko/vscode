@@ -25,3 +25,6 @@ img {
 img:hover {
   :green ;
 }
+i:hover {
+  background-color: darkcyan;
+}
