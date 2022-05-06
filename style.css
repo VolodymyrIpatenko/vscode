@@ -18,6 +18,7 @@ button {
 button:hover {
   color: darkcyan;
 }
+button,
 svg {
   vertical-align: middle;
 }
