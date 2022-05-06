@@ -22,9 +22,7 @@ img {
   color: white;
   vertical-align: middle;
 }
-img:hover {
-  :green ;
-}
+
 i:hover {
   background-color: darkcyan;
 }
