@@ -18,11 +18,13 @@ button {
 button:hover {
   color: darkcyan;
 }
-img {
-  color: white;
+svg {
   vertical-align: middle;
 }
 
 i:hover {
-  background-color: darkcyan;
+  color: darkcyan;
+}
+.bird:hover {
+  fill: green;
 }
