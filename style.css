@@ -19,6 +19,7 @@ button:hover {
   color: darkcyan;
 }
 img {
+  color: white;
   vertical-align: middle;
 }
 img:hover {
