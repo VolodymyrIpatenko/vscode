@@ -6,27 +6,22 @@ div {
   justify-content: space-around;
 }
 button {
-  height: 0;
+  /* height: 0px; */
   background: none;
   border: none;
 }
 .full {
-  height: 16px;
   font-size: 16px;
 }
 .three-quarters {
-  height: 32px;
   font-size: 32px;
 }
 .half {
-  height: 64px;
   font-size: 64px;
 }
 .quater {
-  height: 128px;
   font-size: 128px;
 }
 .empty {
-  height: 256px;
   font-size: 256px;
 }
