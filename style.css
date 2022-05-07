@@ -1,36 +1,32 @@
 * {
   box-sizing: border-box;
 }
-
+div {
+  display: flex;
+  justify-content: space-around;
+}
 button {
-  margin: 64px;
-  width: 200px;
-  height: 50px;
-  background-color: coral;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-weight: 700;
+  height: 0;
+  background: none;
   border: none;
-  cursor: pointer;
 }
-button:hover {
-  color: darkcyan;
+.first {
+  width: 16px;
+  height: 16px;
 }
-button:hover > .bird {
-  fill: green;
-}
-
-.bird {
-  vertical-align: middle;
+.second {
   width: 32px;
   height: 32px;
 }
-
-i:hover {
-  color: darkcyan;
+.third {
+  width: 64px;
+  height: 64px;
 }
-.bird:hover {
-  fill: green;
+.fourth {
+  width: 128px;
+  height: 128px;
+}
+.fifth {
+  width: 256px;
+  height: 256px;
 }
