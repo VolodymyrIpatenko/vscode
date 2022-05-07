@@ -3,6 +3,9 @@
 }
 
 button {
+  display: inline-block;
+  line-height: 0;
+  padding: 0;
   margin: 64px;
   width: 200px;
   height: 50px;
@@ -19,10 +22,8 @@ button:hover {
   color: darkcyan;
 }
 
-svg {
-  vertical-align: middle;
-}
 .bird {
+  vertical-align: middle;
   width: 32px;
   height: 32px;
 }
