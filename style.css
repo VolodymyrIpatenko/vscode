@@ -3,9 +3,6 @@
 }
 
 button {
-  display: inline-block;
-  line-height: 0;
-  padding: 0;
   margin: 64px;
   width: 200px;
   height: 50px;
@@ -20,6 +17,9 @@ button {
 }
 button:hover {
   color: darkcyan;
+}
+button:hover > .bird {
+  fill: green;
 }
 
 .bird {
