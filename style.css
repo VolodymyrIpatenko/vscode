@@ -11,22 +11,22 @@ button {
   border: none;
 }
 .full {
-  line-height: 16px;
+  height: 16px;
   font-size: 16px;
 }
 .three-quarters {
-  line-height: 32px;
+  height: 32px;
   font-size: 32px;
 }
 .half {
-  line-height: 64px;
+  height: 64px;
   font-size: 64px;
 }
 .quater {
-  line-height: 128px;
+  height: 128px;
   font-size: 128px;
 }
 .empty {
-  line-height: 256px;
+  height: 256px;
   font-size: 256px;
 }
