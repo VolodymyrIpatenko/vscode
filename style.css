@@ -6,7 +6,7 @@ div {
   justify-content: space-around;
 }
 button {
-  height: fit-content;
+  height: 100%;
   background: none;
   border: none;
 }
