@@ -18,9 +18,13 @@ button {
 button:hover {
   color: darkcyan;
 }
-button,
+
 svg {
   vertical-align: middle;
+}
+.bird {
+  width: 32px;
+  height: 32px;
 }
 
 i:hover {
