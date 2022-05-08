@@ -11,18 +11,18 @@ button {
   border: none;
 }
 
-.full {
+.fa-battery-half {
   font-size: 16px;
 }
-.three-quarters {
+.fa-battery-three-quarters {
   font-size: 32px;
 }
-.half {
+.fa-battery-half {
   font-size: 64px;
 }
-.quater {
+.fa-battery-quarter {
   font-size: 128px;
 }
-.empty {
+.fa-battery-empty {
   font-size: 256px;
 }
