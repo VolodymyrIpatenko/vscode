@@ -1,35 +1,20 @@
 * {
   box-sizing: border-box;
 }
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+
+p {
+  margin: 0 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  display: inline-block;
+  border-radius: 4px;
 }
-.spinner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: monospace;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-.spinner-text {
+.square {
   position: relative;
-  animation: blinking 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-.rect {
-  margin-top: 3px;
-  position: relative;
-  width: 10px;
-  height: 4px;
-  animation: blinking 2s, moving 2s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  border-radius: 2px;
-  background-color: black;
+  top: 120px;
+  left: 180px;
+  width: 150px;
+  height: 150px;
+  background-color: tomato;
+  transform: rotate(45deg);
 }
