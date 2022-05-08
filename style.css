@@ -23,6 +23,7 @@ body {
   animation-timing-function: linear;
 }
 .rect {
+  margin-top: 3px;
   position: relative;
   width: 10px;
   height: 4px;
