@@ -4,31 +4,35 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   min-height: 100vh;
 }
-.spinner {
+.block {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-}
-.spinner-text {
+  align-items: center;
   position: relative;
-  animation: 2s blinking;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  font-family: monospace;
-  font-size: 16px;
+  animation: 2s block;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  width: 250px;
+  height: 100px;
+  background-color: coral;
+  font-weight: 700;
+  color: white;
   text-transform: uppercase;
+  font-size: 14px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 }
-.rect {
-  position: relative;
-  width: 10px;
-  height: 4px;
-  animation: 2s blinking, 2s moving;
-  animation-direction: reverse;
-  animation-iteration-count: infinite;
-  border-radius: 2px;
-  background-color: black;
+@keyframes block {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: calc(50vh - 50px);
+    left: 0;
+  }
 }
