@@ -28,6 +28,7 @@ body {
   position: relative;
   width: 10px;
   height: 4px;
+  animation-fill-mode: forwards;
   animation: 2s blinking, 2s moving;
   animation-direction: reverse;
   animation-iteration-count: infinite;
