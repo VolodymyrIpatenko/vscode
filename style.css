@@ -12,15 +12,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 .spinner-text {
   position: relative;
   animation: blinking 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  font-family: monospace;
-  font-size: 16px;
-  text-transform: uppercase;
 }
 .rect {
   position: relative;
