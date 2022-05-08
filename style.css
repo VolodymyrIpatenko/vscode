@@ -7,6 +7,9 @@
 .rect {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
   opacity: 0.5;
   background-color: coral;
@@ -24,6 +27,9 @@
 }
 .ease-in {
   transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
 }
 .ease-in-out {
   transition-timing-function: ease-in-out;
