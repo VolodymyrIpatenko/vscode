@@ -10,11 +10,8 @@ p {
   border-radius: 4px;
 }
 .square {
-  position: relative;
-  top: 120px;
-  left: 180px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background-color: tomato;
-  transform: rotate(45deg);
+  transform: translate(200px, 100px) rotate(45deg) scale(1.5);
 }
