@@ -1,28 +1,30 @@
 * {
   box-sizing: border-box;
 }
-div {
-  display: flex;
-  justify-content: space-around;
+.container {
+  margin: 32px;
 }
-button {
-  height: 0;
-  background: none;
-  border: none;
+.rect {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+  background-color: coral;
+  transition: 2s;
 }
-
-.fa-battery-half {
-  font-size: 16px;
+.rect:hover {
+  opacity: 1;
+  width: 100%;
 }
-.fa-battery-three-quarters {
-  font-size: 32px;
+.linear {
+  transition-timing-function: linear;
 }
-.fa-battery-half {
-  font-size: 64px;
+.ease {
+  transition-timing-function: ease;
 }
-.fa-battery-quarter {
-  font-size: 128px;
+.ease-in {
+  transition-timing-function: ease-in;
 }
-.fa-battery-empty {
-  font-size: 256px;
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
