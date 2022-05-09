@@ -66,12 +66,12 @@ body {
 .nav-list-item {
   margin-bottom: 0.5em;
   line-height: 2em;
-  padding: 0.5em;
+
   color: white;
   background-color: #808080;
 }
 .nav-list-link {
-  /* padding: 0.5em; */
+  margin: 0.5em;
   color: white;
 }
 .footer {
