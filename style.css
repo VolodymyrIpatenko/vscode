@@ -11,10 +11,7 @@ html {
   padding: 0;
   list-style: none;
 }
-ul {
-  padding: 0;
-  margin: 0;
-}
+
 :where(nav) li {
   text-overflow: ellipsis;
   white-space: nowrap;
