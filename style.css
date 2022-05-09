@@ -7,6 +7,11 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+}
 .square {
   width: 100px;
   height: 100px;
