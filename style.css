@@ -6,9 +6,14 @@ html {
   font-family: Verdana;
   color: #555;
 }
+
 :where(nav) ul {
   padding: 0;
   list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
 }
 :where(nav) li {
   text-overflow: ellipsis;
