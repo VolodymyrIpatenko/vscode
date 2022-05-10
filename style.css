@@ -33,15 +33,15 @@ li {
   height: 2em;
   margin: 0.5em;
   padding: 0.5em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   color: white;
   background-color: #808080;
 }
 a {
   text-decoration: none;
   color: white;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 @media screen and (min-width: 600px) {
   button {
