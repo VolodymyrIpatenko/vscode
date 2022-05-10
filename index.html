@@ -13,12 +13,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <main class="main">
-      <section class="section">
-        <div class="nav"><span>Navigation</span></div>
-        <div class="products"><span>Products List</span></div>
-      </section>
-      <div class="news"><span>News</span></div>
-    </main>
+    <picture>
+      <source
+        srcset="
+          https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/example-399.jpg
+        "
+        media="(max-width:400px)"
+      />
+      <source
+        srset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
+        media="(min-width:600px)"
+      />
+      <img
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
+        alt="Tree on the land"
+      />
+    </picture>
   </body>
 </html>
