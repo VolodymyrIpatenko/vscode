@@ -105,12 +105,14 @@ body {
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
-  .section {
+  .main {
     display: flex;
-    flex: 2 1;
+    flex-wrap: wrap;
+  }
+  .section {
+    width: 80%;
   }
   .navigation {
-    display: flex;
-    flex: 1 1;
+    width: 20%;
   }
 }
