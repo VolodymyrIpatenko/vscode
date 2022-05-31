@@ -1,18 +1,23 @@
 // const { it } = require("eslint/lib/rule-tester/rule-tester");
 
 // const { it } = require("eslint/lib/rule-tester/rule-tester");
+// import { it } from "eslint/lib/rule-tester/rule-tester";
+import getSum, { getSquaredNumbers, getOddNumbers } from "./calculator";
 
-it("17 и в Африке 17", () => {
-  expect(17).toEqual(17);
+it("should square numbers", () => {
+  const result = getSquaredNumbers([1, 2, 3]);
+
+  expect(result).toEqual([1, 4, 9]);
 });
 
-it("18 это не 17", () => {
-  expect(18).not.toEqual(17);
+it("should get odd off numbers", () => {
+  const result = getOddNumbers([1, 2, 3]);
+
+  expect(result).toEqual([1, 3]);
 });
-const getEvenNumbers = (numbers) => numbers.filter((num) => num % 2 === 0);
 
-it("should get only even numbers from array", () => {
-  const result = getEvenNumbers([1, 2, 3, 4]);
+it("should get sum of numbers", () => {
+  const result = getSum(1, 3);
 
-  expect(result).toEqual([2, 4]);
+  expect(result).toEqual(4);
 });
