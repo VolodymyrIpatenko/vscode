@@ -1,0 +1,20 @@
+p:nth-of-type(1)::first-letter {
+  font-size: 36px;
+  margin-left: 16px;
+  color: orange;
+}
+p::selection {
+  background-color: red;
+  color: white;
+}
+a::before {
+  content: ">";
+  color: green;
+}
+a::after {
+  content: ">";
+  color: green;
+}
+p:nth-of-type(1)::first-line {
+  font-size: 24px;
+}
