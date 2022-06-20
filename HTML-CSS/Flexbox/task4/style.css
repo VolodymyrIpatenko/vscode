@@ -1,0 +1,22 @@
+body {
+  display: flex;
+}
+div {
+  flex-basis: calc(100% / 5);
+  height: 300px;
+}
+.block_black {
+  background-color: black;
+}
+.block_blue {
+  background-color: blue;
+}
+.block_green {
+  background-color: green;
+}
+.block_yellow {
+  background-color: yellow;
+}
+.block_red {
+  background-color: red;
+}

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  padding: 50px 0;
+  background-position: center;
+  background-size: contain;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 16px;
+  border: 1px dotted grey;
+}
+.gallery {
+  display: flex;
+}
+div:nth-of-type(3) {
+  padding: 0 20px;
+}
