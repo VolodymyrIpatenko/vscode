@@ -1,0 +1,66 @@
+@import "variables";
+
+.menu{
+	height: 3em;
+	position: relative;
+	display: flex;
+	align-items: center;
+	color:$menu-color;
+	margin: 0;
+	list-style: none;
+	background-color:$header-background;
+
+	
+
+	&__item{
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		height: 100%;
+		
+		text-transform: uppercase;
+		margin:$gap;
+		cursor:pointer;
+		&_active:hover{
+                    .submenu{
+			bottom:-100px;
+			position: absolute;
+			display: flex;
+			flex-direction: column;
+			}
+		}
+		.submenu__item{
+			margin:$gap;
+		}
+	
+	
+}
+	&__item:hover{
+		background-color:$hover-color;
+	}
+	
+
+}
+
+.submenu{
+
+	list-style: none;
+	display:none;
+	min-width:120px;
+	min-height:100px;
+
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background-color:$submenu-background;
+
+	&__item{
+		cursor:pointer;
+		color:$submenu-color;
+	}
+	&__item:hover{
+		color:$menu-color;
+	}
+}
