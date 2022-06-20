@@ -13,7 +13,7 @@ body{
 .square{
 	width: 100px;
 	height: 100px;
-	margin: 8px;
+	margin: 16px;
 
 	@include for-extra-small{
 		background-color:$mobile-background;
@@ -30,9 +30,4 @@ body{
 		background-color:$large-background;
 	}
 
-}
-@media screen and (orientation: portrait) {
-  .container {
-    flex-direction: column;
-  }
 }

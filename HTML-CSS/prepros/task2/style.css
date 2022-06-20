@@ -34,11 +34,17 @@ body {
     background-color: #c47;
   }
 }
-
 @media screen and (orientation: portrait) {
   .container {
+    display: flex;
     flex-direction: column;
   }
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
