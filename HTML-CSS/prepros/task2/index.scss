@@ -1,0 +1,38 @@
+@import "breakpoints.scss";
+@import "variables.scss";
+
+*{
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.square{
+	width: 100px;
+	height: 100px;
+	margin: 8px;
+
+	@include for-extra-small{
+		background-color:$mobile-background;
+	}
+
+	@include for-medium-up{
+		background-color:$tablet-background;
+	}
+	@include for-big-up{
+		background-color: $desk-background;
+	}
+
+	@include for-extra-large-up{
+		background-color:$large-background;
+	}
+
+}
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
