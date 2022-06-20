@@ -10,6 +10,7 @@
   align-items: center;
   height: 56px;
   color: #fff;
+  font-weight: 700;
 }
 .nav-list__item {
   background-color: #ff7f50;
