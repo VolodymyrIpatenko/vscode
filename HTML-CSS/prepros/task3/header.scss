@@ -15,18 +15,13 @@
 	
 
 	&__item{
-		position: relative;
-		display: inline-flex;
-		align-items: center;
-		height: 100%;
-		
-		
+		line-height: 3em;
 		text-transform: uppercase;
-		margin:$gap;
+		padding:0 $gap;
 		cursor:pointer;
 		&_active:hover{
                     .submenu{
-			bottom:-100px;
+			top:3em;
 			position: absolute;
 			display: flex;
 			flex-direction: column;
