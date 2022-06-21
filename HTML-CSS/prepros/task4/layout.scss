@@ -1,0 +1,39 @@
+span {
+  text-transform: lowercase;
+  font-family: Verdana;
+  border-radius: 4px;
+  background-color: #faebd7;
+  padding: 8px;
+  margin: auto;
+}
+.nav {
+  min-height: 200px;
+  display: flex;
+  flex: 1 1;
+  background-color: #ff7f50;
+}
+.products {
+  display: flex;
+  flex: 1 1;
+  min-height: 200px;
+  background-color: #006400;
+}
+.news {
+  display: flex;
+  flex: 1 1;
+  min-height: 200px;
+  background-color: #0ff;
+}
+
+@media screen and (min-width: 600px) {
+  .section {
+    display: flex;
+    flex: 2 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    display: flex;
+  }
+}
