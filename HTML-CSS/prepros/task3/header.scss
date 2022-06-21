@@ -8,7 +8,8 @@
 	display: flex;
 	align-items: center;
 	color:$menu-color;
-	margin: 0;
+	margin-left:$gap;
+	padding:0 -$gap;
 	list-style: none;
 	background-color:$header-background;
 	
