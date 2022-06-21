@@ -8,54 +8,55 @@
 	display: flex;
 	align-items: center;
 	color:$menu-color;
-	margin-left:$gap;
-	padding:0 -$gap;
+	margin: 0;
 	list-style: none;
 	background-color:$header-background;
+
 	
-	
-	
+
 	&__item{
 		line-height: 3em;
 		text-transform: uppercase;
+		padding:0 $gap;
 		cursor:pointer;
 		&_active:hover{
-			.submenu{
-				top:3em;
-				position: absolute;
-				
+                    .submenu{
+			top:3em;
+			position: absolute;
+			display: flex;
+			flex-direction: column;
 			}
 		}
 		.submenu__item{
-			padding:0 $gap;
+			margin:$gap;
 		}
 		&_active{
 			color:yellow;
 		}
-		
-		
-	}
+	
+	
+}
 	&__item:hover{
 		background-color:$hover-color;
 	}
 	
-	
+
 }
 
 .submenu{
-	
+
 	list-style: none;
 	display:none;
 	min-width:120px;
 	min-height:100px;
-	
+
 	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 	z-index:1;
 	position: relative;
 	padding: 0;
 	margin: 0;
 	background-color:$submenu-background;
-	
+
 	&__item{
 		cursor:pointer;
 		color:$submenu-color;
